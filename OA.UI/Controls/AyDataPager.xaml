@@ -1,0 +1,82 @@
+﻿<UserControl x:Class="Ay.Framework.WPF.Controls.AyDataPager"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:control="clr-namespace:Ay.Framework.WPF.Controls"
+             x:Name="dp" Margin="3"
+             mc:Ignorable="d" 
+             d:DesignHeight="46" d:DesignWidth="577" Loaded="DataPager_Loaded">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <!--<ComboBox Grid.Column="0"  VerticalAlignment="Center" Name="cboPageSize"  
+                  MinWidth="40" Margin="5,0,0,0"
+                  ItemsSource="{Binding Path=PageSizeItems,ElementName=dp}" 
+                  SelectedItem="{Binding PageSize,Mode=TwoWay,ElementName=dp}" SelectionChanged="cbpPageSize_SelectionChanged" />-->
+        <control:AyComboBox FontWeight="Normal"  Background="#FFFFFF"                    
+			    IsEditable="false" TextSearch.TextPath="Content"  Grid.Column="0"  VerticalAlignment="Center" x:Name="cboPageSize"  
+                  Margin="5,0,0,0"
+                  ItemsSource="{Binding Path=PageSizeItems,ElementName=dp}" 
+                  SelectedItem="{Binding PageSize,Mode=TwoWay,ElementName=dp}" SelectionChanged="cbpPageSize_SelectionChanged" Width="48" Height="22" >
+         
+        </control:AyComboBox>
+
+
+        <StackPanel Grid.Column="1" VerticalAlignment="Center" Orientation="Horizontal" Margin="5,0,0,0">
+
+            <control:AyImageButton Click="btnFirst_Click" x:Name="btnFirst" Margin="10,0,0,0"
+                RenderMode="Manner" Width="16" Height="16"
+                Icon="pack://application:,,,/OA.UI;component/SystemResources/Images/dgPager/pagination_first.png" 
+                HoverIcon="pack://application:,,,/OA.UI;component/SystemResources/Images/dgPager/pagination_first.png" 
+                PressedIcon="pack://application:,,,/OA.UI;component/SystemResources/Images/dgPager/pagination_first.png" 
+                DisabledIcon="pack://application:,,,/OA.UI;component/SystemResources/Images/dgPager/pagination_first_gray.png" />
+
+            <control:AyImageButton Click="btnPrev_Click" x:Name="btnPrev" Margin="10,0,0,0"
+                RenderMode="Manner" Width="16" Height="16"
+                Icon="pack://application:,,,/OA.UI;component/SystemResources/Images/dgPager/pagination_prev.png" 
+                HoverIcon="pack://application:,,,/OA.UI;component/SystemResources/Images/dgPager/pagination_prev.png" 
+                PressedIcon="pack://application:,,,/OA.UI;component/SystemResources/Images/dgPager/pagination_prev.png" 
+                DisabledIcon="pack://application:,,,/OA.UI;component/SystemResources/Images/dgPager/pagination_prev_gray.png" />
+
+
+            <TextBlock Text="第 "  VerticalAlignment="Center"/>
+            <TextBox Style="{DynamicResource CommonTextBox}" Width="30" Height="22"
+                     Text="{Binding Path=PageIndex,ElementName=dp}" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                     Name="tbPageIndex" PreviewKeyDown="tbPageIndex_PreviewKeyDown" 
+                     LostFocus="tbPageIndex_LostFocus" />
+            <TextBlock Text=" 页，共 "  VerticalAlignment="Center"/>
+            <TextBlock Text="{Binding Path=PageCount, ElementName=dp}"  VerticalAlignment="Center"/>
+            <TextBlock Text=" 页"  VerticalAlignment="Center"/>
+            <control:AyImageButton Click="btnNext_Click" x:Name="btnNext" Margin="10,0,0,0"
+                RenderMode="Manner" Width="16" Height="16"
+                Icon="pack://application:,,,/OA.UI;component/SystemResources/Images/dgPager/pagination_next.png" 
+                HoverIcon="pack://application:,,,/OA.UI;component/SystemResources/Images/dgPager/pagination_next.png" 
+                PressedIcon="pack://application:,,,/OA.UI;component/SystemResources/Images/dgPager/pagination_next.png" 
+                DisabledIcon="pack://application:,,,/OA.UI;component/SystemResources/Images/dgPager/pagination_next_gray.png" />
+
+            <control:AyImageButton Click="btnLast_Click" x:Name="btnLast" Margin="10,0,0,0"
+                RenderMode="Manner" Width="16" Height="16"
+                Icon="pack://application:,,,/OA.UI;component/SystemResources/Images/dgPager/pagination_last.png" 
+                HoverIcon="pack://application:,,,/OA.UI;component/SystemResources/Images/dgPager/pagination_last.png" 
+                PressedIcon="pack://application:,,,/OA.UI;component/SystemResources/Images/dgPager/pagination_last.png" 
+                DisabledIcon="pack://application:,,,/OA.UI;component/SystemResources/Images/dgPager/pagination_last_gray.png" />
+
+            <control:AyImageButton Click="btnRefresh_Click" x:Name="btnRefresh" Margin="10,0,0,0"
+                RenderMode="Manner" Width="16" Height="16"
+                Icon="pack://application:,,,/OA.UI;component/SystemResources/Images/dgPager/pagination_load.png" 
+                HoverIcon="pack://application:,,,/OA.UI;component/SystemResources/Images/dgPager/pagination_load.png" 
+                PressedIcon="pack://application:,,,/OA.UI;component/SystemResources/Images/dgPager/pagination_load.png" 
+                DisabledIcon="pack://application:,,,/OA.UI;component/SystemResources/Images/dgPager/pagination_load.png" />
+
+
+        </StackPanel>
+        <TextBlock Grid.Column="2" VerticalAlignment="Center" Margin="5,0,5,0" >
+            当前显示从<TextBlock Text="{Binding Path=Start,ElementName=dp}" />到<TextBlock Text="{Binding Path=End,ElementName=dp}" /> 共<TextBlock Text="{Binding Path=Total,ElementName=dp}" />条记录
+        </TextBlock>
+    </Grid>
+</UserControl>

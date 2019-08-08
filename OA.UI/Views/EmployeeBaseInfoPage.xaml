@@ -1,0 +1,125 @@
+﻿<Page x:Class="OA.UI.Views.EmployeeBaseInfoPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:OA.UI.Views"
+              xmlns:control="clr-namespace:Ay.Framework.WPF.Controls" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="EmployeeBaseInfoPage">
+    <Page.Resources>
+        <ControlTemplate x:Key="FormTextBoxBaseControlTemplate" TargetType="{x:Type TextBoxBase}">
+            <Border x:Name="border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="True">
+                <ScrollViewer x:Name="PART_ContentHost" Focusable="False" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
+            </Border>
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsEnabled" Value="False">
+                    <Setter Property="Opacity" TargetName="border" Value="0.56"/>
+                </Trigger>
+  
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+    </Page.Resources>
+
+    <Grid>
+        <StackPanel>
+            <Grid>
+                <TextBlock x:Name="tb_empName" Text="{Binding EmpName,StringFormat={}{0}简历信息}" HorizontalAlignment="Left"></TextBlock>
+                <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+                    <Button x:Name="saveInfo" Cursor="Hand" Height="24" Padding="10,2" Margin="5,0,0,0" BorderBrush="#BCBCBC" Foreground="#4A4A4A"
+                                        Style="{DynamicResource SelectButtonStyle}" Content="保存">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="White" Offset="0"/>
+                                <GradientStop Color="White" Offset="1"/>
+                                <GradientStop Color="#FFF3F3F3" Offset="0.495"/>
+                                <GradientStop Color="#FFFCFCFC" Offset="0.044"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="export" Cursor="Hand" Height="24" Padding="10,2" Margin="5,0,0,0" BorderBrush="#BCBCBC" Foreground="#4A4A4A" Click="export_Click"
+                                        Style="{DynamicResource SelectButtonStyle}" Content="导出">
+                        <Button.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="White" Offset="0"/>
+                                <GradientStop Color="White" Offset="1"/>
+                                <GradientStop Color="#FFF3F3F3" Offset="0.495"/>
+                                <GradientStop Color="#FFFCFCFC" Offset="0.044"/>
+                            </LinearGradientBrush>
+                        </Button.Background>
+                    </Button>
+                </StackPanel>
+
+            </Grid>
+            <GroupBox Style="{DynamicResource AyGroupboxStyleNormal}" BorderBrush="{DynamicResource s.main.top.logo.color4}" 
+                  MinHeight="80" Foreground="{DynamicResource s.main.top.logo.color4}" >
+                <GroupBox.Header>
+                    <TextBlock Text="基本信息" FontWeight="Bold">
+                    </TextBlock>
+                </GroupBox.Header>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="16"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="2.5*"/>
+                        <ColumnDefinition Width="16"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="24"/>
+                        <RowDefinition Height="24"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock x:Name="t_empName" Text="姓名: " HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
+                    <TextBox  Foreground="#000000" BorderBrush="#D1DBDB" FontWeight="Normal" MaxLength="4" x:Name="empName" Height="20"   HorizontalAlignment="Stretch" Grid.Column="1"
+									VerticalAlignment="Center"  TextWrapping="NoWrap" Text="{Binding EmpName}" HorizontalContentAlignment="Left"  BorderThickness="0,0,0,1" Template="{DynamicResource FormTextBoxBaseControlTemplate}"/>
+                    <TextBlock x:Name="xing_empName" Text=" *" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="Red" Grid.Column="2"></TextBlock>
+
+                    <TextBlock x:Name="t_empSex" Text="性别: " HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Column="3"></TextBlock>
+                    <StackPanel Orientation="Horizontal" Grid.Column="4">
+                        <RadioButton Padding="3,4" Height="24" VerticalAlignment="Center"  Foreground="#000000" FontWeight="Normal"  x:Name="rb_male" GroupName="sexGroup" Content="男"/>
+                        <RadioButton Padding="3,4" Height="24" VerticalAlignment="Center"  Foreground="#000000" FontWeight="Normal"  x:Name="rb_female" GroupName="sexGroup" Content="女"/>
+                    </StackPanel>
+                    <TextBlock x:Name="xing_empSex" Text=" *" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="Red" Grid.Column="5"></TextBlock>
+
+                    <TextBlock x:Name="t_empRelation" Text="关系: " HorizontalAlignment="Right" VerticalAlignment="Center"  Grid.Row="1"></TextBlock>
+                    <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="1">
+                        <CheckBox Padding="3,4" Height="24" Margin="0,0,0,0" Foreground="#000000" FontWeight="Normal" x:Name="onlyZhiShu" Content="仅直属"/>
+                        <CheckBox Padding="3,4" Height="24" Foreground="#000000" FontWeight="Normal" x:Name="onlyZhuZhi" Content="仅主职"/>
+                    </StackPanel>
+                    <TextBlock  Grid.Row="1"  Grid.Column="2" x:Name="xing_empRelation" Text=" *" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="Red" ></TextBlock>
+                    <TextBlock x:Name="t_cboL" Text="员工类型: " HorizontalAlignment="Right" VerticalAlignment="Center"  Grid.Row="1" Grid.Column="3"></TextBlock>
+
+                    <control:AyComboBox FontWeight="Normal" HorizontalAlignment="Left" x:Name="cboEmployeeType" Background="#FFFFFF" Grid.Row="1" Grid.Column="4"                   
+									IsEditable="false" TextSearch.TextPath="Content"  BorderBrush="{DynamicResource s.main.top.logo.color4}"
+									VerticalAlignment="Center" Width="100" Height="24"  >
+                        <ComboBoxItem Content="--请选择--" HorizontalAlignment="Left" IsSelected="True"/>
+                        <ComboBoxItem Content="--正式工--" HorizontalAlignment="Left" />
+                        <ComboBoxItem Content="--合同工--" HorizontalAlignment="Left" />
+                        <ComboBoxItem Content="--临时工--" HorizontalAlignment="Left" />
+                        <ComboBoxItem Content="试用期员工" HorizontalAlignment="Left" />
+                    </control:AyComboBox>
+                    <TextBlock  Grid.Row="1"  Grid.Column="5" x:Name="xing_cboL" Text=" *" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="Red" ></TextBlock>
+
+                </Grid>
+            </GroupBox>
+            <GroupBox Style="{DynamicResource AyGroupboxStyleNormal}"  Header="自定义字段" BorderBrush="{DynamicResource s.main.top.logo.color4}" MinHeight="80" Foreground="{DynamicResource s.main.top.logo.color4}">
+
+            </GroupBox>
+            <GroupBox Style="{DynamicResource AyGroupboxStyleNormal}"  Header="附件" BorderBrush="{DynamicResource s.main.top.logo.color4}" MinHeight="80" Foreground="{DynamicResource s.main.top.logo.color4}">
+
+            </GroupBox>
+            <GroupBox Style="{DynamicResource AyGroupboxStyleNormal}"  Header="职位信息" BorderBrush="{DynamicResource s.main.top.logo.color4}" MinHeight="80" Foreground="{DynamicResource s.main.top.logo.color4}">
+
+            </GroupBox>
+            <GroupBox Style="{DynamicResource AyGroupboxStyleNormal}"  Header="联系方式" BorderBrush="{DynamicResource s.main.top.logo.color4}" MinHeight="80" Foreground="{DynamicResource s.main.top.logo.color4}">
+
+            </GroupBox>
+            <GroupBox Style="{DynamicResource AyGroupboxStyleNormal}"  Header="测试滚动条" BorderBrush="{DynamicResource s.main.top.logo.color4}" MinHeight="150" Foreground="{DynamicResource s.main.top.logo.color4}">
+
+            </GroupBox>
+        </StackPanel>
+
+    </Grid>
+</Page>

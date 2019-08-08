@@ -1,0 +1,221 @@
+﻿<control:AyWindow x:Class="OA.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:control="clr-namespace:Ay.Framework.WPF.Controls" Height="900" Width="1600" MinWidth="1465" MinHeight="738" TitleVisibility="Collapsed"
+        xmlns:local="clr-namespace:OA.UI" WindowStartupLocation="CenterScreen" WindowState="Maximized" Background="White"
+                  Loaded="AyWindow_Loaded"
+        mc:Ignorable="d"
+        Title="XX公司HR演示系统">
+    <control:AyWindow.Resources>
+
+        <Style x:Key="MainTabItemStyle" TargetType="{x:Type RadioButton}">
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="FocusVisualStyle" Value="{x:Null}"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type RadioButton}">
+
+                        <Border x:Name="radioButtonBorder" BorderBrush="#5E6261"  SnapsToDevicePixels="True" BorderThickness="1,1,1,0" CornerRadius="5,5,0,0" >
+                            <Border.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="#FFEBF3F2" Offset="0"/>
+                                    <GradientStop Color="#FF9CC1BC" Offset="1"/>
+                                </LinearGradientBrush>
+                            </Border.Background>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CheckStates">
+                                    <VisualStateGroup.Transitions>
+                                        <VisualTransition GeneratedDuration="0:0:0.3"/>
+                                    </VisualStateGroup.Transitions>
+                                    <VisualState x:Name="Checked">
+                                        <Storyboard>
+                                            <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.Background).(GradientBrush.GradientStops)[0].(GradientStop.Color)" Storyboard.TargetName="radioButtonBorder">
+                                                <EasingColorKeyFrame KeyTime="0" Value="White"/>
+                                            </ColorAnimationUsingKeyFrames>
+                                            <ColorAnimationUsingKeyFrames Storyboard.TargetProperty="(Panel.Background).(GradientBrush.GradientStops)[1].(GradientStop.Color)" Storyboard.TargetName="radioButtonBorder">
+                                                <EasingColorKeyFrame KeyTime="0" Value="#FFEFEFEF"/>
+                                            </ColorAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Unchecked"/>
+                                    <VisualState x:Name="Indeterminate"/>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <ContentPresenter x:Name="contentPresenter" ContentTemplate="{TemplateBinding ContentTemplate}" 
+                    			Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" Focusable="False" 
+                    			HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" 
+                    			RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" 
+                    			VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                        </Border>
+
+
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+    </control:AyWindow.Resources>
+    <Grid Margin="0,-24,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="175"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="68"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="27"/>
+        </Grid.RowDefinitions>
+        <Canvas Height="68" Grid.Column="0" Grid.ColumnSpan="2" ClipToBounds="True">
+            <Canvas.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="#64A5A5" Offset="0"/>
+                    <GradientStop Color="#568D8D" Offset="1"/>
+                </LinearGradientBrush>
+            </Canvas.Background>
+
+            <Ellipse x:Name="logo_bg" Width="222" Height="222" Canvas.Top="-164" RenderTransformOrigin="0.5,0.5" Canvas.Left="29.5">
+
+                <Ellipse.Fill>
+                    <RadialGradientBrush RadiusY="0.429" Center="0.331,0.514" GradientOrigin="-0.263,0.022" RadiusX="0.665">
+                        <GradientStop Color="#FFE7F3F0" Offset="0.484"/>
+                        <GradientStop Color="#FF63A3A3" Offset="1"/>
+                        <GradientStop Color="#FF578F8F" Offset="1"/>
+                        <GradientStop Color="#FF578F8F" Offset="0.919"/>
+                        <GradientStop Color="White" Offset="0.634"/>
+                    </RadialGradientBrush>
+                </Ellipse.Fill>
+            </Ellipse>
+            <!--<Canvas.Background>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="{DynamicResource main.top.bg.color1}" Offset="0"/>
+                    <GradientStop Color="{DynamicResource main.top.bg.color2}" Offset="1"/>
+                </LinearGradientBrush>
+            </Canvas.Background>
+
+            <Ellipse x:Name="logo_bg" Width="222" Height="222" Canvas.Top="-164" RenderTransformOrigin="0.5,0.5" Canvas.Left="29.5">
+
+                <Ellipse.Fill>
+                    <RadialGradientBrush RadiusY="0.429" Center="0.331,0.514" GradientOrigin="-0.263,0.022" RadiusX="0.665">
+                        <GradientStop Color="{DynamicResource main.top.logo.color1}" Offset="0.484"/>
+                        <GradientStop Color="{DynamicResource main.top.logo.color2}" Offset="1"/>
+                        <GradientStop Color="{DynamicResource main.top.logo.color3}" Offset="1"/>
+                        <GradientStop Color="{DynamicResource main.top.logo.color4}" Offset="0.919"/>
+                        <GradientStop Color="White" Offset="0.634"/>
+                    </RadialGradientBrush>
+                </Ellipse.Fill>
+            </Ellipse>-->
+            <Image x:Name="img_CompanyLogo" Width="154" Height="68" Source="SystemResources/images/companyLogo.png"></Image>
+            <StackPanel Height="39" Canvas.Bottom="0" Orientation="Horizontal" Canvas.Left="173">
+                <RadioButton Margin="1,0" VerticalAlignment="Bottom" Content="桌面" Height="39" Padding="15,5,15,0" Style="{DynamicResource MainTabItemStyle}" ></RadioButton>
+                <RadioButton Margin="1,0" VerticalAlignment="Bottom" Content="个人" Height="39" Padding="15,5,15,0" Style="{DynamicResource MainTabItemStyle}">
+                </RadioButton>
+                <RadioButton Margin="1,0" VerticalAlignment="Bottom" Content="公共" Height="39" Padding="15,5,15,0" Style="{DynamicResource MainTabItemStyle}">
+                </RadioButton>
+                <RadioButton Margin="1,0" VerticalAlignment="Bottom" Content="协同" Height="39" Padding="15,5,15,0" Style="{DynamicResource MainTabItemStyle}">
+                </RadioButton>
+                <RadioButton Margin="1,0" VerticalAlignment="Bottom" Content="人事" Height="39" Padding="15,5,15,0" Style="{DynamicResource MainTabItemStyle}" IsChecked="True">
+                </RadioButton>
+                <RadioButton Margin="1,0" VerticalAlignment="Bottom" Content="经理查询" Height="39" Padding="15,5,15,0" Style="{DynamicResource MainTabItemStyle}">
+                </RadioButton>
+                <RadioButton Margin="1,0" VerticalAlignment="Bottom" Content="考勤排班" Height="39" Padding="15,5,15,0" Style="{DynamicResource MainTabItemStyle}">
+                </RadioButton>
+                <RadioButton Margin="1,0" VerticalAlignment="Bottom" Content="绩效考核" Height="39" Padding="15,5,15,0" Style="{DynamicResource MainTabItemStyle}">
+                </RadioButton>
+                <RadioButton Margin="1,0" VerticalAlignment="Bottom" Content="薪资社保" Height="39" Padding="15,5,15,0" Style="{DynamicResource MainTabItemStyle}">
+                </RadioButton>
+                <RadioButton Margin="1,0" VerticalAlignment="Bottom" Content="人事分析" Height="39" Padding="15,5,15,0" Style="{DynamicResource MainTabItemStyle}"></RadioButton>
+            </StackPanel>
+        </Canvas>
+        <Grid Margin="0,0,0,0"  Grid.Row="1"  Grid.Column="0" Grid.RowSpan="2" ClipToBounds="True">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFCAE0DC" Offset="0"/>
+                    <GradientStop Color="#FF5E9B9B" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Ellipse Margin="-124,-106,-129.654,-99" >
+                <!--<Ellipse.OpacityMask>
+                    <RadialGradientBrush>
+                        <GradientStop Color="#66000000" Offset="0"/>
+                        <GradientStop Color="#99FFFFFF" Offset="1"/>
+                    </RadialGradientBrush>
+                </Ellipse.OpacityMask>-->
+                <Ellipse.Fill>
+                    <RadialGradientBrush RadiusY="0.502" RadiusX="0.502">
+                        <GradientStop Color="#B2C9DFDC" Offset="0.994"/>
+                        <GradientStop Color="#B2FFFFFF" Offset="0.813"/>
+                    </RadialGradientBrush>
+                </Ellipse.Fill>
+            </Ellipse>
+            <control:AyTreeView AyTreeMode="IconText"  FirstAyTreeViewItemPadding="0" Margin="0,15,0,0"       
+                                TreeViewItem.Selected="TreeViewItem_Selected" 
+                                        Foreground="#000000" 
+                                        FontSize="14"  SelectedRightSJXOpacity="0"
+                                         IconHeight="16" IconWidth="18"
+                                        VirtualizingStackPanel.IsVirtualizing="false" TreeViewItemHeight="26" 
+                                TreeViewAnimationIsOpen="True"  Background="#00FFFFFF"  x:Name="tvLeftMenu" 
+                                        BorderThickness="0" BorderBrush="#FFFFFF" HorizontalAlignment="Center" Width="154"  
+                                        VerticalAlignment="Stretch"
+                                        
+                                         
+                                        >
+                <!--<TreeViewItem Unselected="TreeViewItem_Unselected" >ee</TreeViewItem>-->
+            </control:AyTreeView>
+
+
+
+        </Grid>
+        <Frame x:Name="frameMain"  Grid.Column="1" Grid.Row="1" VerticalAlignment="Stretch" Background="White"
+                   HorizontalAlignment="Stretch"
+               NavigationUIVisibility="Hidden"
+               >
+            <!--<Frame.Effect>
+                <DropShadowEffect Direction="19" BlurRadius="10" ShadowDepth="1" Color="#FF599292"/>
+            </Frame.Effect>-->
+        </Frame>
+        <StackPanel x:Name="sp_userInfo" Grid.Row="2" Orientation="Horizontal">
+            <TextBlock x:Name="tb" VerticalAlignment="Center" Margin="15,0,0,0">用户：</TextBlock>
+            <TextBlock x:Name="tb_user" Foreground="red" VerticalAlignment="Center">AY君(ayjs.net)</TextBlock>
+        </StackPanel>
+        <Grid Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ClipToBounds="True" Background="#CFE1E1"  Grid.Row="2" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="180"/>
+                <ColumnDefinition Width="154"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="10,0,0,0">
+                <Image Source="SystemResources/Images/icon/clock.png" VerticalAlignment="Center" Width="16" Height="16" Stretch="Uniform"/>
+                <TextBlock VerticalAlignment="Center">登录时间：</TextBlock>
+                <TextBlock VerticalAlignment="Center" x:Name="userLoginTime">09:50</TextBlock>
+                <TextBlock VerticalAlignment="Center" Margin="10,0,0,0">在线时间：</TextBlock>
+                <TextBlock VerticalAlignment="Center" x:Name="userOnlineTime">13</TextBlock>
+                <TextBlock VerticalAlignment="Center">分钟</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center"  Grid.Column="1">
+                <Image Source="SystemResources/Images/icon/25103_s.png" VerticalAlignment="Center" Width="16" Height="16" Stretch="Uniform" Cursor="Hand" ToolTip="发件箱" />
+                <Image Source="SystemResources/Images/icon/24005_s.png" VerticalAlignment="Center" Width="16" Height="16" Stretch="Uniform" Cursor="Hand" ToolTip="即时沟通" Margin="5,0,0,0"/>
+                <Image Source="SystemResources/Images/icon/24002_s.png" VerticalAlignment="Center" Width="16" Height="16" Stretch="Uniform" Cursor="Hand" ToolTip="便笺本" Margin="5,0,0,0"/>
+                <Image Source="SystemResources/Images/icon/24001_s.png" VerticalAlignment="Center" Width="16" Height="16" Stretch="Uniform" Cursor="Hand" ToolTip="日程事务" Margin="5,0,0,0"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center"  Grid.Column="2">
+                <Image Source="SystemResources/Images/icon/mail_new.png" VerticalAlignment="Center" Width="16" Height="16" Stretch="Uniform"/>
+                <Label VerticalAlignment="Center" Foreground="Red">(</Label>
+                <TextBlock VerticalAlignment="Center" x:Name="userMessageNumber"  Foreground="Red">0</TextBlock>
+                <Label VerticalAlignment="Center"  Foreground="Red">)</Label>
+                <Image Source="SystemResources/Images/icon/flow.png" VerticalAlignment="Center" Width="16" Height="16" Stretch="Uniform"/>
+                <Label VerticalAlignment="Center" Foreground="Red">(</Label>
+                <TextBlock VerticalAlignment="Center" x:Name="flowNumber"  Foreground="Red">0</TextBlock>
+                <Label VerticalAlignment="Center"  Foreground="Red">)</Label>
+                <Image Source="SystemResources/Images/icon/Schedule.png" VerticalAlignment="Center" Width="16" Height="16" Stretch="Uniform"/>
+                <Label VerticalAlignment="Center" Foreground="Red">(</Label>
+                <TextBlock VerticalAlignment="Center" x:Name="ScheduleNumber"  Foreground="Red">0</TextBlock>
+                <Label VerticalAlignment="Center"  Foreground="Red">)</Label>
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</control:AyWindow>

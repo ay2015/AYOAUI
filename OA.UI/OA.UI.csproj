@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1F2D5C9C-9F44-4F16-B399-3AAA711D1C8F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OA.UI</RootNamespace>
+    <AssemblyName>OA.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Expression.Controls, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Expression.Interactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Controls\AyComboBox.cs" />
+    <Compile Include="Controls\AyDataPager.xaml.cs">
+      <DependentUpon>AyDataPager.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AyImageButton.cs" />
+    <Compile Include="Controls\AyPagingDto.cs" />
+    <Compile Include="Controls\AyTextBox.cs" />
+    <Compile Include="Controls\PasswordBoxMonitor.cs" />
+    <Compile Include="Entities\AyUIEntity.cs" />
+    <Compile Include="Entities\EmployeeInfo.cs" />
+    <Compile Include="Views\AyExportWindow.xaml.cs">
+      <DependentUpon>AyExportWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditEmployeeWindow.xaml.cs">
+      <DependentUpon>EditEmployeeWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EmployeeBaseInfoPage.xaml.cs">
+      <DependentUpon>EmployeeBaseInfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EmployeeEducationPage.xaml.cs">
+      <DependentUpon>EmployeeEducationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EmployeeInfoPage.xaml.cs">
+      <DependentUpon>EmployeeInfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ForeignLanguagePage.xaml.cs">
+      <DependentUpon>ForeignLanguagePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\HRPage.xaml.cs">
+      <DependentUpon>HRPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LoginWindow.xaml.cs">
+      <DependentUpon>LoginWindow.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Controls\AyDataPager.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controls\AyPropertyChanged.cs" />
+    <Compile Include="Controls\AyTreeView.cs" />
+    <Compile Include="Controls\AyTreeViewItemModel.cs" />
+    <Compile Include="Controls\AyWindow.cs" />
+    <Compile Include="Controls\CommonHelper.cs" />
+    <Compile Include="Controls\TreeViewHelper.cs" />
+    <Compile Include="Controls\WpfTreeHelper.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="SystemResources\MainColors.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SystemResources\MainThemes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AyExportWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EditEmployeeWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EmployeeBaseInfoPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EmployeeEducationPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EmployeeInfoPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ForeignLanguagePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\HRPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LoginWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SystemResources\Images\companyLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SystemResources\Images\tree\folder_01.png" />
+    <Resource Include="SystemResources\Images\tree\folder_02.png" />
+    <Resource Include="SystemResources\Images\tree\folder_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SystemResources\Images\dgPager\pagination_first.png" />
+    <Resource Include="SystemResources\Images\dgPager\pagination_first_gray.png" />
+    <Resource Include="SystemResources\Images\dgPager\pagination_last.png" />
+    <Resource Include="SystemResources\Images\dgPager\pagination_last_gray.png" />
+    <Resource Include="SystemResources\Images\dgPager\pagination_load.png" />
+    <Resource Include="SystemResources\Images\dgPager\pagination_loading.png" />
+    <Resource Include="SystemResources\Images\dgPager\pagination_next.png" />
+    <Resource Include="SystemResources\Images\dgPager\pagination_next_gray.png" />
+    <Resource Include="SystemResources\Images\dgPager\pagination_prev.png" />
+    <Resource Include="SystemResources\Images\dgPager\pagination_prev_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SystemResources\Images\icon\11_b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SystemResources\Images\icon\12_b.png" />
+    <Resource Include="SystemResources\Images\icon\13_b.png" />
+    <Resource Include="SystemResources\Images\icon\21602_b.png" />
+    <Resource Include="SystemResources\Images\icon\21604_b.png" />
+    <Resource Include="SystemResources\Images\icon\21605_b.png" />
+    <Resource Include="SystemResources\Images\icon\21606_b.png" />
+    <Resource Include="SystemResources\Images\icon\21607_b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SystemResources\Images\icon\24406_b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SystemResources\Images\icon\408004339_b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SystemResources\Images\icon\22001_b.png" />
+    <Resource Include="SystemResources\Images\icon\22002_b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SystemResources\Images\icon\22110_s.png" />
+    <Resource Include="SystemResources\Images\icon\22111_s.png" />
+    <Resource Include="SystemResources\Images\icon\22112_s.png" />
+    <Resource Include="SystemResources\Images\icon\22113_s.png" />
+    <Resource Include="SystemResources\Images\icon\22114_s.png" />
+    <Resource Include="SystemResources\Images\icon\22115_s.png" />
+    <Resource Include="SystemResources\Images\icon\22401_s.png" />
+    <Resource Include="SystemResources\Images\icon\22403_s.png" />
+    <Resource Include="SystemResources\Images\icon\22404_s.png" />
+    <Resource Include="SystemResources\Images\icon\22405_s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SystemResources\Images\Image 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SystemResources\Images\icon\edit.png" />
+    <Resource Include="SystemResources\Images\icon\view.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SystemResources\Images\icon\clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SystemResources\Images\icon\flow.png" />
+    <Resource Include="SystemResources\Images\icon\mail_new.png" />
+    <Resource Include="SystemResources\Images\icon\Schedule.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SystemResources\Images\icon\24001_s.png" />
+    <Resource Include="SystemResources\Images\icon\24002_s.png" />
+    <Resource Include="SystemResources\Images\icon\24005_s.png" />
+    <Resource Include="SystemResources\Images\icon\25103_s.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SystemResources\Images\u0.png" />
+    <Resource Include="SystemResources\Images\u21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SystemResources\Images\minW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SystemResources\Images\exits.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="SystemResources\Images\u4.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

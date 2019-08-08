@@ -1,0 +1,108 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+                    >
+    <sys:Double x:Key="ScrollViewerWH">20.00</sys:Double>
+    <sys:Double x:Key="ScrollBarRadius">0</sys:Double>
+
+
+    
+    <Color x:Key="main.top.bg.color1">#64A5A5</Color>
+    <Color x:Key="main.top.bg.color2">#568D8D</Color>
+
+    <Color x:Key="main.top.logo.color1">#FFE7F3F0</Color>
+    <Color x:Key="main.top.logo.color2">#FF63A3A3</Color>
+    <Color x:Key="main.top.logo.color3">#FF578F8F</Color>
+    <Color x:Key="main.top.logo.color4">#FF578F8F</Color>
+    <Color x:Key="main.top.color5">#79C0BB</Color>
+
+    <SolidColorBrush x:Key="s.main.top.color5" Color="{StaticResource main.top.color5}"></SolidColorBrush>
+
+    <SolidColorBrush x:Key="ScrollBar.Static.Thumb" Color="{StaticResource main.top.logo.color2}"/>
+    <SolidColorBrush x:Key="AyComboBox.Static.Border" Color="{StaticResource main.top.logo.color4}"/>
+    <SolidColorBrush x:Key="AyComboBox.Static.Background" Color="#FFFFFFFF"/>
+    <SolidColorBrush x:Key="AyComboBox.Static.Editable.Button.Background" Color="#00FFFFFF"/>
+    <SolidColorBrush x:Key="AyComboBox.Static.Arrow.Foreground" Color="{StaticResource main.top.logo.color4}"/>
+
+    <SolidColorBrush x:Key="ComboBoxItem.ItemsviewHover.Background" Color="{StaticResource main.top.logo.color3}"/>
+    <SolidColorBrush x:Key="ComboBoxItem.ItemsviewSelected.Background" Color="{StaticResource main.top.logo.color4}"/>
+    <SolidColorBrush x:Key="ComboBoxItem.ItemsviewSelectedHover.Background" Color="{StaticResource main.top.logo.color2}"/>
+    <SolidColorBrush x:Key="ComboBoxItem.ItemsviewSelectedNoFocus.Background" Color="{StaticResource main.top.logo.color4}"/>
+
+    <!--用于checkbox和radiobutton  Start-->
+    <SolidColorBrush x:Key="AyCheckBox.OptionMark.MouseOver.Background" Color="#FFE2EBE1"/>
+    <SolidColorBrush x:Key="AyCheckBox.OptionMark.MouseOver.Border" Color="#FFA2BE9B"/>
+    <SolidColorBrush x:Key="AyCheckBox.OptionMark.Static.Glyph" Color="{StaticResource main.top.logo.color4}"/>
+    <!--<SolidColorBrush x:Key="AyCheckBox.OptionMark.MouseOver.Glyph" Color="#FFE2CCBF"/>-->
+
+
+    <SolidColorBrush x:Key="AyCheckBox.IndeterminateMark.Static.BackGround" Color="#FFE6E6E6"/>
+    <SolidColorBrush x:Key="AyCheckBox.Static.BorderBrush" Color="#CFCFCF"/>
+    <SolidColorBrush x:Key="AyCheckBox.Static.Foreground" Color="#030303"/>
+    <SolidColorBrush x:Key="AyCheckBox.Static.Background" Color="#FFECECEC"/>
+    <!--用于checkbox和radiobutton  End-->
+
+
+
+    <SolidColorBrush x:Key="s.main.top.logo.color2" Color="{StaticResource main.top.logo.color2}"></SolidColorBrush>
+    <SolidColorBrush x:Key="s.main.top.logo.color4" Color="{StaticResource main.top.logo.color4}"></SolidColorBrush>
+
+    <SolidColorBrush x:Key="s.UnSelect.tab.Color" Color="#DFE2E2"></SolidColorBrush>
+
+    <SolidColorBrush x:Key="Win_RightButton_Fill_Background" Color="#CCFFFFFF"></SolidColorBrush>
+    <SolidColorBrush x:Key="Win_RightButton.Stroke" Color="#664F4F4F"></SolidColorBrush>
+
+    <!--默认stroke颜色-->
+    <SolidColorBrush x:Key="Win_RightButton_Close.Hover.Stroke" Color="#4CAB3E46"></SolidColorBrush>
+    <SolidColorBrush x:Key="Win_RightButton_Other.Hover.Stroke" Color="#2969B3"></SolidColorBrush>
+
+    <Color x:Key="Win_RightButton_Close.Hover.Background">#D94747</Color>
+    <Color x:Key="Win_RightButton_Other.Hover.Background">#428ADC</Color>
+    <Color x:Key="Win_RightButton_Close.Pressed.Background">#BC3434</Color>
+    <Color x:Key="Win_RightButton_Other.Pressed.Background">#317CD1</Color>
+    <!--新版界面-->
+    <SolidColorBrush x:Key="AyTreeViewItem.Static.Foreground" Color="#000000"></SolidColorBrush>
+    <SolidColorBrush x:Key="AyTreeViewItem.Hover.Foreground" Color="#79C0BB"></SolidColorBrush>
+    <SolidColorBrush x:Key="AyTreeViewItem.Pressed.Foreground" Color="#4EA29C"></SolidColorBrush>
+
+
+    <SolidColorBrush x:Key="AyTreeViewItem.AyExpanderSanJiao.Static.Background" Color="#FF5A9494"></SolidColorBrush>
+    <!--鼠标移动上去,默认是90%的透明-->
+    <SolidColorBrush x:Key="AyTreeViewItem.AyExpanderSanJiao.Checked.Background" Color="#E55A9494"></SolidColorBrush>
+    <SolidColorBrush x:Key="AyTreeViewItem.Icon.Stroke" Color="#747474"></SolidColorBrush>
+
+    <Color x:Key="AyTreeViewItem.HoverLeave.Background.Color1">#00313A42</Color>
+    <Color x:Key="AyTreeViewItem.HoverLeave.Background.Color2">#00313A42</Color>
+    <Color x:Key="AyTreeViewItem.PressedLeave.Background.Color1">#00252C32</Color>
+    <Color x:Key="AyTreeViewItem.PressedLeave.Background.Color2">#00252C32</Color>
+    <Color x:Key="AyTreeViewItem.HoverLeave.Border.Color">#00313A42</Color>
+    <Color x:Key="AyTreeViewItem.PressedLeave.Border.Color">#00252C32</Color>
+
+    <Color x:Key="AyTreeViewItem.Hover.Border.Color">#313A42</Color>
+    <Color x:Key="AyTreeViewItem.Pressed.Border.Color">#252C32</Color>
+
+    <Color x:Key="AyTreeViewItem.Hover.Background.Color1">#313A42</Color>
+    <Color x:Key="AyTreeViewItem.Hover.Background.Color2">#313A42</Color>
+    <Color x:Key="AyTreeViewItem.Pressed.Background.Color1">#252C32</Color>
+    <Color x:Key="AyTreeViewItem.Pressed.Background.Color2">#252C32</Color>
+
+
+    <Color x:Key="TabRightButtonStyle.static.color1">#FFFFFFFF</Color>
+    <Color x:Key="TabRightButtonStyle.static.color2">#FF9DCCC7</Color>
+    <Color x:Key="TabRightButtonStyle.hover.color1">#FFFFFFFF</Color>
+    <Color x:Key="TabRightButtonStyle.hover.color2">#FFB5E2DD</Color>
+    <Color x:Key="TabRightButtonStyle.press.color1">#FFFFFFFF</Color>
+    <Color x:Key="TabRightButtonStyle.press.color2">#FF66B5AC</Color>
+
+
+    <Color x:Key="AyDataGrid.Rows.Selected.Background.Color">#FFFFCC</Color>
+    <SolidColorBrush x:Key="s.AyDataGrid.Rows.Selected.Background.Color" Color="{StaticResource AyDataGrid.Rows.Selected.Background.Color}"/>
+
+    <SolidColorBrush x:Key="s.AyDataGrid.Rows.Hover.Background.Color" Color="#FBFBDE"/>
+    
+    <Color x:Key="AyDataGrid.Cells.Border.Color">#DEE5E5</Color>
+    <SolidColorBrush x:Key="s.AyDataGrid.Cells.Border.Color" Color="{StaticResource AyDataGrid.Cells.Border.Color}"/>
+    <Color x:Key="AyDataGrid.AlterRow.Background.Color">#E5FCF6</Color>
+    <SolidColorBrush x:Key="s.AyDataGrid.AlterRow.Background.Color" Color="{StaticResource AyDataGrid.AlterRow.Background.Color}"/>
+    
+</ResourceDictionary>

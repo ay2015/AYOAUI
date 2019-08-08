@@ -1,0 +1,439 @@
+D:\OA\OA.UI\OA.UI\obj\Debug\SystemResources\MainColors.baml
+D:\OA\OA.UI\OA.UI\obj\Debug\MainWindow.g.cs
+D:\OA\OA.UI\OA.UI\obj\Debug\Views\HRPage.g.cs
+D:\OA\OA.UI\OA.UI\obj\Debug\App.g.cs
+D:\OA\OA.UI\OA.UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\OA\OA.UI\OA.UI\obj\Debug\OA.UI_MarkupCompile.cache
+D:\OA\OA.UI\OA.UI\obj\Debug\OA.UI_MarkupCompile.lref
+D:\OA\OA.UI\OA.UI\bin\Debug\OA.UI.exe
+D:\OA\OA.UI\OA.UI\bin\Debug\OA.UI.pdb
+D:\OA\OA.UI\OA.UI\bin\Debug\Microsoft.Expression.Controls.dll
+D:\OA\OA.UI\OA.UI\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\OA\OA.UI\OA.UI\bin\Debug\Microsoft.Expression.Drawing.dll
+D:\OA\OA.UI\OA.UI\bin\Debug\System.Windows.Interactivity.dll
+D:\OA\OA.UI\OA.UI\bin\Debug\Microsoft.Expression.Controls.xml
+D:\OA\OA.UI\OA.UI\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\OA\OA.UI\OA.UI\bin\Debug\Microsoft.Expression.Drawing.xml
+D:\OA\OA.UI\OA.UI\bin\Debug\System.Windows.Interactivity.xml
+D:\OA\OA.UI\OA.UI\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+D:\OA\OA.UI\OA.UI\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+D:\OA\OA.UI\OA.UI\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+D:\OA\OA.UI\OA.UI\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+D:\OA\OA.UI\OA.UI\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+D:\OA\OA.UI\OA.UI\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+D:\OA\OA.UI\OA.UI\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+D:\OA\OA.UI\OA.UI\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\OA\OA.UI\OA.UI\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\OA\OA.UI\OA.UI\bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\OA\OA.UI\OA.UI\bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\OA\OA.UI\OA.UI\bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\OA\OA.UI\OA.UI\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\OA\OA.UI\OA.UI\bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\OA\OA.UI\OA.UI\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\OA\OA.UI\OA.UI\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\OA\OA.UI\OA.UI\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\OA\OA.UI\OA.UI\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\OA\OA.UI\OA.UI\obj\Debug\Views\EmployeeInfoPage.g.cs
+D:\OA\OA.UI\OA.UI\obj\Debug\App.baml
+D:\OA\OA.UI\OA.UI\obj\Debug\MainWindow.baml
+D:\OA\OA.UI\OA.UI\obj\Debug\SystemResources\MainThemes.baml
+D:\OA\OA.UI\OA.UI\obj\Debug\Views\EmployeeInfoPage.baml
+D:\OA\OA.UI\OA.UI\obj\Debug\Views\HRPage.baml
+D:\OA\OA.UI\OA.UI\obj\Debug\OA.UI.g.resources
+D:\OA\OA.UI\OA.UI\obj\Debug\OA.UI.Properties.Resources.resources
+D:\OA\OA.UI\OA.UI\obj\Debug\OA.UI.csproj.GenerateResource.Cache
+D:\OA\OA.UI\OA.UI\obj\Debug\OA.UI.exe
+D:\OA\OA.UI\OA.UI\obj\Debug\OA.UI.pdb
+D:\OA\OA.UI\OA.UI\obj\Debug\OA.UI.csprojResolveAssemblyReference.cache
+D:\OA\OA.UI\OA.UI\obj\Debug\Controls\AyDataPager.g.cs
+D:\OA\OA.UI\OA.UI\obj\Debug\Controls\AyDataPager.baml
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\obj\Debug\SystemResources\MainColors.baml
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\obj\Debug\Controls\AyDataPager.g.cs
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\obj\Debug\Views\EmployeeInfoPage.g.cs
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\obj\Debug\Views\HRPage.g.cs
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\obj\Debug\App.g.cs
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\obj\Debug\OA.UI_MarkupCompile.cache
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\obj\Debug\OA.UI_MarkupCompile.lref
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\obj\Debug\App.baml
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\obj\Debug\Controls\AyDataPager.baml
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\obj\Debug\SystemResources\MainThemes.baml
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\obj\Debug\Views\HRPage.baml
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\obj\Debug\OA.UI.exe
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\obj\Debug\OA.UI.pdb
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\OA.UI.exe
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\OA.UI.pdb
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\Microsoft.Expression.Controls.dll
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\Microsoft.Expression.Controls.xml
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\obj\Debug\Views\EmployeeInfoPage.baml
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\obj\Debug\OA.UI.g.resources
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\obj\Debug\OA.UI.Properties.Resources.resources
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\obj\Debug\OA.UI.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\新建文件夹\OA.UI\OA.UI\obj\Debug\OA.UI.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\OA.UI.exe
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\Microsoft.Expression.Controls.dll
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\Microsoft.Expression.Controls.xml
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\obj\Debug\SystemResources\MainColors.baml
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\obj\Debug\Controls\AyDataPager.g.cs
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\obj\Debug\Views\EmployeeInfoPage.g.cs
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\obj\Debug\Views\HRPage.g.cs
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\obj\Debug\App.g.cs
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\obj\Debug\OA.UI_MarkupCompile.cache
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\obj\Debug\OA.UI_MarkupCompile.lref
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\obj\Debug\App.baml
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\obj\Debug\Controls\AyDataPager.baml
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\obj\Debug\SystemResources\MainThemes.baml
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\obj\Debug\Views\EmployeeInfoPage.baml
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\obj\Debug\Views\HRPage.baml
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\obj\Debug\OA.UI.g.resources
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\obj\Debug\OA.UI.Properties.Resources.resources
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\obj\Debug\OA.UI.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\obj\Debug\OA.UI.exe
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\obj\Debug\OA.UI.pdb
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\bin\Debug\OA.UI.pdb
+C:\Users\Administrator\Desktop\OA.UI\OA.UI\obj\Debug\OA.UI.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\obj\Debug\OA.UI.exe
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\obj\Debug\OA.UI.pdb
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\OA.UI.exe
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\OA.UI.pdb
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\Microsoft.Expression.Controls.dll
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\Microsoft.Expression.Controls.xml
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\obj\Debug\OA.UI.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\obj\Debug\SystemResources\MainColors.baml
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\obj\Debug\Controls\AyDataPager.g.cs
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\obj\Debug\Views\EmployeeInfoPage.g.cs
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\obj\Debug\Views\HRPage.g.cs
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\obj\Debug\App.g.cs
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\obj\Debug\OA.UI_MarkupCompile.cache
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\obj\Debug\OA.UI_MarkupCompile.lref
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\obj\Debug\App.baml
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\obj\Debug\Controls\AyDataPager.baml
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\obj\Debug\SystemResources\MainThemes.baml
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\obj\Debug\Views\EmployeeInfoPage.baml
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\obj\Debug\Views\HRPage.baml
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\obj\Debug\OA.UI.g.resources
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\obj\Debug\OA.UI.Properties.Resources.resources
+C:\Users\Administrator\Desktop\OA.UI 2015-8-24 172119\OA.UI\obj\Debug\OA.UI.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\OA.UI.exe
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\OA.UI.pdb
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\Microsoft.Expression.Controls.dll
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\Microsoft.Expression.Controls.xml
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\Microsoft.Expression.Drawing.xml
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\2155\OA.UI\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\SystemResources\MainColors.baml
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\Controls\AyDataPager.g.cs
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\Views\AyExportWindow.g.cs
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\Views\EditEmployeeWindow.g.cs
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\Views\EmployeeBaseInfoPage.g.cs
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\Views\EmployeeEducationPage.g.cs
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\Views\EmployeeInfoPage.g.cs
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\Views\ForeignLanguagePage.g.cs
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\Views\HRPage.g.cs
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\Views\LoginWindow.g.cs
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\App.g.cs
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\OA.UI_MarkupCompile.cache
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\OA.UI_MarkupCompile.lref
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\App.baml
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\Controls\AyDataPager.baml
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\SystemResources\MainThemes.baml
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\Views\AyExportWindow.baml
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\Views\EditEmployeeWindow.baml
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\Views\EmployeeBaseInfoPage.baml
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\Views\EmployeeEducationPage.baml
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\Views\EmployeeInfoPage.baml
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\Views\ForeignLanguagePage.baml
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\Views\HRPage.baml
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\Views\LoginWindow.baml
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\OA.UI.g.resources
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\OA.UI.Properties.Resources.resources
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\OA.UI.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\OA.UI.exe
+C:\Users\Administrator\Desktop\2155\OA.UI\obj\Debug\OA.UI.pdb
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\OA.UI.exe
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\OA.UI.pdb
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\OA.UI.csprojResolveAssemblyReference.cache
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\SystemResources\MainColors.baml
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\Controls\AyDataPager.g.cs
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\MainWindow.g.cs
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\Views\AyExportWindow.g.cs
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\Views\EditEmployeeWindow.g.cs
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\Views\EmployeeBaseInfoPage.g.cs
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\Views\EmployeeEducationPage.g.cs
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\Views\EmployeeInfoPage.g.cs
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\Views\ForeignLanguagePage.g.cs
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\Views\HRPage.g.cs
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\App.g.cs
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\OA.UI_MarkupCompile.cache
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\OA.UI_MarkupCompile.lref
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\OA.UI.exe
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\OA.UI.pdb
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\Microsoft.Expression.Controls.dll
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\Microsoft.Expression.Drawing.dll
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\System.Windows.Interactivity.dll
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\Microsoft.Expression.Controls.xml
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\Microsoft.Expression.Interactions.xml
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\Microsoft.Expression.Drawing.xml
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\System.Windows.Interactivity.xml
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\de\System.Windows.Interactivity.resources.dll
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\en\System.Windows.Interactivity.resources.dll
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\es\System.Windows.Interactivity.resources.dll
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\it\System.Windows.Interactivity.resources.dll
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+D:\3.5.7.1\OAUI\OA.UI\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\Views\LoginWindow.g.cs
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\App.baml
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\Controls\AyDataPager.baml
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\MainWindow.baml
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\SystemResources\MainThemes.baml
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\Views\AyExportWindow.baml
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\Views\EditEmployeeWindow.baml
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\Views\EmployeeBaseInfoPage.baml
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\Views\EmployeeEducationPage.baml
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\Views\EmployeeInfoPage.baml
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\Views\ForeignLanguagePage.baml
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\Views\HRPage.baml
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\Views\LoginWindow.baml
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\OA.UI.g.resources
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\OA.UI.Properties.Resources.resources
+D:\3.5.7.1\OAUI\OA.UI\obj\Debug\OA.UI.csproj.GenerateResource.Cache
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\OA.UI.exe
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\OA.UI.pdb
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\OA.UI.exe
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\OA.UI.pdb
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\Microsoft.Expression.Controls.dll
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\Microsoft.Expression.Interactions.dll
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\Microsoft.Expression.Drawing.dll
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\System.Windows.Interactivity.dll
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\Microsoft.Expression.Controls.xml
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\Microsoft.Expression.Interactions.xml
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\Microsoft.Expression.Drawing.xml
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\System.Windows.Interactivity.xml
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\de\System.Windows.Interactivity.resources.dll
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\en\System.Windows.Interactivity.resources.dll
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\es\System.Windows.Interactivity.resources.dll
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\it\System.Windows.Interactivity.resources.dll
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\OA.UI.csprojResolveAssemblyReference.cache
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\SystemResources\MainColors.baml
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\Controls\AyDataPager.g.cs
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\MainWindow.g.cs
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\Views\AyExportWindow.g.cs
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\Views\EditEmployeeWindow.g.cs
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\Views\EmployeeBaseInfoPage.g.cs
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\Views\EmployeeEducationPage.g.cs
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\Views\EmployeeInfoPage.g.cs
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\Views\ForeignLanguagePage.g.cs
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\Views\HRPage.g.cs
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\Views\LoginWindow.g.cs
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\App.g.cs
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\OA.UI_MarkupCompile.cache
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\OA.UI_MarkupCompile.lref
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\App.baml
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\Controls\AyDataPager.baml
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\MainWindow.baml
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\SystemResources\MainThemes.baml
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\Views\AyExportWindow.baml
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\Views\EditEmployeeWindow.baml
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\Views\EmployeeBaseInfoPage.baml
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\Views\EmployeeEducationPage.baml
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\Views\EmployeeInfoPage.baml
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\Views\ForeignLanguagePage.baml
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\Views\HRPage.baml
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\Views\LoginWindow.baml
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\OA.UI.g.resources
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\OA.UI.Properties.Resources.resources
+I:\sanxing\AY AYUI世界\★产品源码\OAUI\OA.UI\obj\Debug\OA.UI.csproj.GenerateResource.Cache
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\OA.UI.exe
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\OA.UI.pdb
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\Microsoft.Expression.Drawing.dll
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\System.Windows.Interactivity.dll
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\Microsoft.Expression.Controls.xml
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\Microsoft.Expression.Interactions.xml
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\Microsoft.Expression.Drawing.xml
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\System.Windows.Interactivity.xml
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\de\System.Windows.Interactivity.resources.dll
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\en\System.Windows.Interactivity.resources.dll
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\es\System.Windows.Interactivity.resources.dll
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\it\System.Windows.Interactivity.resources.dll
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\OA.UI.csprojAssemblyReference.cache
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\SystemResources\MainColors.baml
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\Controls\AyDataPager.g.cs
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\MainWindow.g.cs
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\Views\AyExportWindow.g.cs
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\Views\EditEmployeeWindow.g.cs
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\Views\EmployeeBaseInfoPage.g.cs
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\Views\EmployeeEducationPage.g.cs
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\Views\EmployeeInfoPage.g.cs
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\Views\ForeignLanguagePage.g.cs
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\Views\HRPage.g.cs
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\Views\LoginWindow.g.cs
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\App.g.cs
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\OA.UI_MarkupCompile.cache
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\OA.UI_MarkupCompile.lref
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\App.baml
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\Controls\AyDataPager.baml
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\MainWindow.baml
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\SystemResources\MainThemes.baml
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\Views\AyExportWindow.baml
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\Views\EditEmployeeWindow.baml
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\Views\EmployeeBaseInfoPage.baml
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\Views\EmployeeEducationPage.baml
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\Views\EmployeeInfoPage.baml
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\Views\ForeignLanguagePage.baml
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\Views\HRPage.baml
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\Views\LoginWindow.baml
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\OA.UI.g.resources
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\OA.UI.Properties.Resources.resources
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\OA.UI.csproj.GenerateResource.cache
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\OA.UI.csproj.CoreCompileInputs.cache
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\OA.UI.csproj.CopyComplete
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\OA.UI.exe
+E:\sanxing\01AYAYUI\★产品源码\OAUI\OA.UI\obj\Debug\OA.UI.pdb
